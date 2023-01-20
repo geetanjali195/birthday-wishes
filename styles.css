@@ -1,0 +1,113 @@
+
+body{
+  background:black;
+ background-image:url("img/bd.jpg") ;
+ background-size: cover;
+ background-position: center;
+
+background-repeat: no-repeat;
+  margin-bottom:10px;
+  padding-bottom:100px;
+}
+
+
+.snow{
+ position:relative;   
+    left: 0px;
+    top: 0px;
+ 
+}
+h1{
+  text-align:center;
+   font-family: 'Sacramento', cursive;
+ font-size:4em;
+  -webkit-animation:greetings 5s infinite alternate;
+}
+@-webkit-keyframes greetings{
+  0%   {color:#ED0A3F; }
+    10%  {color:#FF5349;}
+    20%  {color:#FFB97B;}
+    30%  {color:#FFB97B;}
+    40% {color:#E30B5C;}
+   50% {color:#9C7C38;}
+   60% {color:#8D4E85;}
+   70% {color:#D98695;} 
+  80% {color:#A6A6A6;}
+  90% {color:#914E75;}
+   100% {color:#ED0A3F;}
+}
+@-webkit-keyframes no_animation{
+  0% {color : pink;}
+  50%{ color:blue ;}
+  100% {color:purple;}
+}
+button{
+ width: 250px;
+  height: 100px;
+  border-radius:25px;
+  border: 5px solid pink;
+  box-shadow: 2px 7px #888888;
+font-size:20px;
+  font-family: 'Dancing Script', cursive;
+  color:maroon;
+}
+.buttonDiv{
+  text-align:center;
+  padding-top:100px;
+}
+#name{
+  margin-bottom:50px;
+  width: 250px;
+  height: 50px;
+  border-radius:15px;
+  font-size:1em;
+}
+p{
+  text-align: center;
+ font-size:4em;
+color:yellow;
+   font-family: 'Dancing Script', bold cursive;
+}
+
+
+h2{
+  text-align: right;
+    font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+  color: white;
+  padding-right: 100px;
+}
+
+@media screen and (max-width: 675px){
+  #name{
+    height:25px;
+  }
+  h1{
+    font-size:2em;
+  }
+  p{
+    font-size:3em;
+    
+  }
+  h2{
+    font-size:2em;
+  }
+  body{
+  
+   background-position:25% 50%;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: 550px 550px;
+min-height:100%;  
+height:auto;  
+height:100%;
+  }
+  #span{
+    display:none;
+  }
+ 
+}
+
+
+
